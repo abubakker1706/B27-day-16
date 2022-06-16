@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                         <meta charset="UTF-8">
+                         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                         <title>Document</title>
+                         <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                         <section>
+                          <form class="form">
+                    <label>First Name</label>
+                    <input type="text" placeholder="enter your first name" id="firstname"><br>
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter your last name" id="lastname"><br>
+                    <label>Adress    </label>
+                    <input type="text" placeholder="Enter your address" id="address"><br>
+                    <label>Pincode</label>
+                    <input type="number" placeholder="Enter your Pincode" id="pincode"><br>
+                    
+                    <div >
+                         <label>Gender</label>
+                    <select  id="gender">
+                         <option value="male">Male</option>
+                         <option value="female">Female</option>
+                    
+                    </select><br>
+                   </div>
+             
+                    <label>State</label>
+                    <input type="text" placeholder="Enter your state name" id="state"><br>
+                    <label>Country</label>
+                    <input type="text" placeholder="Enter your country name" id="country">
+                    <button type="button" onclick=onSubmit()>submit</button>
+                    
+
+                          </form>
+
+                         </section>
+<table id="customers">
+                         <tr>
+                         <th>First Name</th>
+                         <th>Last Name</th>
+                         <th>Adress</th>
+                         <th>Pincode</th>
+                         <th>Gender</th>
+                         <th>State</th>
+                         <th>Country</th>
+                         </tr>
+                         <tbody id="result"></tbody>
+
+
+</table>
+
+
+
+
+                         <script type="text/javascript "src="script.js"></script>
+
+</body>
+</html>
